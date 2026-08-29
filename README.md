@@ -27,7 +27,7 @@ medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
 
 medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
 
-**Criação  de Word Lists**
+**Criação de Word Lists**
 
 echo -e "user\nmfadmin\nadmin\nroot" > users.txt 
 
