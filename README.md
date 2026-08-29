@@ -4,6 +4,9 @@ Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux
 
 **Esse é um excelente exercício prático de Hacking Ético! Ele cobre todas as etapas reais de um teste de penetração focado em engenharia social/força bruta: reconhecimento, preparação de dicionários (wordlists), ataque, exploração e pós-exploração.**
 
+**Configurar o ambiente: duas VMs (Kali Linux e Metasploitable 2) no VirtualBox, com rede interna (host-only).**
+Executar ataques simulados: força bruta em FTP, automação de tentativas em formulário web (DVWA) e password spraying em SMB com enumeração de usuários.
+
 **Passo 1**: Criação das Wordlists (Usuários e Senhas)O Medusa precisa de dois arquivos de texto simples para testar as transferências. No terminal do seu Kali Linux, crie esses arquivos:
 
 Criando Arquivos de Usuários e Senhas Comandos Comuns utilizados: (IP utizado ou que foi descoberto na máquina Metasploitable 2)
