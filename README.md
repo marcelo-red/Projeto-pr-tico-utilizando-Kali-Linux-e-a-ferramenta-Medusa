@@ -86,7 +86,7 @@ smbclient -L //192.168.254.3 -U msfadmin
 
 
 
-Declaração de Uso Ético:
+📜 Declaração de Uso Ético
 Este projeto foi desenvolvido estritamente para fins educacionais e avaliativos dentro do escopo da disciplina de Segurança da Informação. Os códigos foram executados localmente em um diretório isolado (C:\Malware) sem capacidade de replicação em rede ou danos a terceiros. O autor não apoia e não se responsabiliza pelo uso indevido das técnicas apresentadas.
 
 
